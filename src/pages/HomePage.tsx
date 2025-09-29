@@ -1,4 +1,3 @@
-import React from 'react';
 import MainLayout from '../components/layout/MainLayout';
 import ArticleList from '../components/article/ArticleList';
 import Sidebar from '../components/sidebar/Sidebar';

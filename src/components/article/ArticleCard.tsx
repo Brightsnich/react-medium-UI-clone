@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import Icon from '../common/Icon';
 import type { Article } from '../../data/mockData';
-import Icon from '../common/icon';
+
 
 const CardContainer = styled.article`
   display: flex;

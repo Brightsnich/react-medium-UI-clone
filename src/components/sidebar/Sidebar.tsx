@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import StaffPicks from './StaffPicks';
 import WhoToFollow from './WhoToFollow.tsx';
 import Tag from '../common/Tag';
-import Icon from '../common/icon';
+import Icon from '../common/Icon';
 
 const SidebarContainer = styled.aside`
   display: none; // Hidden on mobile and tablet

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { staffPicks } from "../../data/mockData";
 import type { StaffPick } from "../../data/mockData";
-import Icon from "../common/icon";
+import Icon from "../common/Icon";
 
 const StaffPickItem = styled.div`
   display: flex;
