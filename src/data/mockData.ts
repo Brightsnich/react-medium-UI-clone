@@ -53,7 +53,7 @@ export const mockArticles: Article[] = [
   {
     id: '4',
     author: { name: 'Samantha Lee', avatarUrl: 'https://i.pravatar.cc/40?u=a042581f4e29026707d' },
-    publication: 'JavaScript in Plain English',
+    publication: 'JS in Plain English',
     title: 'Mastering TypeScript for Large-Scale Projects',
     subtitle: 'Best practices for maintaining a clean and scalable codebase with TypeScript.',
     imageUrl: 'https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=500&q=80',

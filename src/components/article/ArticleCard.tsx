@@ -129,14 +129,15 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
     <CardContainer>
       <AuthorInfo>
         <Avatar src={article.author.avatarUrl} alt={article.author.name} />
-        {article.publication && (
+        {article.publication ? (
           <>
             <PublicationName>&nbsp;In&nbsp;</PublicationName>
             <AuthorName>{article.publication}</AuthorName>
             <PublicationName>&nbsp;by&nbsp;</PublicationName>
             <AuthorName>{article.author.name}</AuthorName>
           </>
-        )}
+        ): <AuthorName>{article.author.name}</AuthorName>
+}
       </AuthorInfo>
       <ContentWrapper>
         <TextContent>
